@@ -127,3 +127,23 @@ ___Use:___
 		    STATEMENTS
 		    ;;
 		esac
+
+
+### Loops:
+	Syntax:
+	- [FOR]()
+		for((i=0;i<k;i++))
+		do
+			##
+		done
+		for a in $str
+		do
+			echo $a
+		done
+	- [WHILE]()
+		while [ $a -lt $k ]
+		do
+			echo $a
+			((a++))
+		done
+
