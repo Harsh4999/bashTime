@@ -80,6 +80,46 @@
 	* "-r" FILE is readable
 	* "-w" FILE can be modified
 	* "-x" FILE can be executed
+	* "-h" FILE exists and is a symbolic link (same as -L)
+    extra 
+    ````````````````````````````````````````````````````
+       -k FILE
+              FILE exists and has its sticky bit set
+
+       -L FILE
+              FILE exists and is a symbolic link (same as -h)
+
+       -N FILE
+              FILE exists and has been modified since it was last read
+
+       -O FILE
+              FILE exists and is owned by the effective user ID
+
+       -p FILE
+              FILE exists and is a named pipe
+
+       -r FILE
+              FILE exists and read permission is granted
+
+       -s FILE
+              FILE exists and has a size greater than zero
+
+       -S FILE
+              FILE exists and is a socket
+
+       -t FD  file descriptor FD is opened on a terminal
+
+       -u FILE
+              FILE exists and its set-user-ID bit is set
+
+       -w FILE
+              FILE exists and write permission is granted
+
+       -x FILE
+              FILE exists and execute (or search) permission is granted
+	     
+	`````````````````````````````````````````````````````````````````````
+
 * Number commands
 	* "-eq" equal
 	* "-ne" not equal
