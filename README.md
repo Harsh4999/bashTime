@@ -117,6 +117,13 @@
 
        -x FILE
               FILE exists and execute (or search) permission is granted
+
+	FILE1 -nt FILE2
+              FILE1 is newer (modification date) than FILE2
+
+       	FILE1 -ot FILE2
+              FILE1 is older than FILE2
+
 	     
 	`````````````````````````````````````````````````````````````````````
 
